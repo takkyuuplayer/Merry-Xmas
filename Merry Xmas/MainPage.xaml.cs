@@ -102,5 +102,10 @@ namespace Merry_Xmas
         }
 
         #endregion
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            greetingOutput.Text = "Merry X'mas!! " + nameInput.Text + "!";
+        }
     }
 }
