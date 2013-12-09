@@ -4,5 +4,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Merry_Xmas"
     RequestedTheme="Light">
+    <Application.Resources>
+        <Style x:Key="BigGreenTextStyle" BasedOn="{StaticResource BaseTextBlockStyle}" TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="SemiLight"/>
+            <Setter Property="Foreground" Value="Green"/>
+            <Setter Property="FontSize" Value="48"/>
+        </Style>
+    </Application.Resources>
 
 </Application>
