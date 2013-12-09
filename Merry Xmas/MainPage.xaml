@@ -52,7 +52,7 @@
                 <TextBox x:Name="nameInput" Width="300" HorizontalAlignment="Left"/>
                 <Button Content="Say &quot;Merry X'mas!!&quot;" Click="Button_Click"/>
             </StackPanel>
-            <TextBlock x:Name="greetingOutput" FontSize="24" Style="{StaticResource BigGreenTextStyle}"/>
+            <TextBlock x:Name="greetingOutput" Style="{StaticResource BigGreenTextStyle}"/>
         </StackPanel>
     </Grid>
 </Page>
